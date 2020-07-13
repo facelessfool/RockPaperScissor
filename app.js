@@ -52,7 +52,7 @@ function lose(uChoice, cChoice) {
     smallCompWord +
     " beats " +
     convertToWord(uChoice) +
-    smallCompWord +
+    smallUserWord +
     ". You Lose!";
 
   document.getElementById(uChoice).classList.add("red-glow");
